@@ -1,6 +1,6 @@
 ﻿namespace MiCalculadora
 {
-    partial class Form1
+    partial class FormCalculadora
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -44,7 +44,7 @@
             this.btnOperar.Location = new System.Drawing.Point(23, 92);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(98, 38);
-            this.btnOperar.TabIndex = 0;
+            this.btnOperar.TabIndex = 4;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
             this.btnOperar.Click += new System.EventHandler(this.BtnOperar_Click);
@@ -54,7 +54,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(128, 92);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(98, 38);
-            this.btnLimpiar.TabIndex = 1;
+            this.btnLimpiar.TabIndex = 5;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
@@ -64,7 +64,7 @@
             this.btnCerrar.Location = new System.Drawing.Point(232, 92);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(98, 38);
-            this.btnCerrar.TabIndex = 2;
+            this.btnCerrar.TabIndex = 6;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
@@ -74,7 +74,7 @@
             this.btnToBinary.Location = new System.Drawing.Point(23, 136);
             this.btnToBinary.Name = "btnToBinary";
             this.btnToBinary.Size = new System.Drawing.Size(151, 42);
-            this.btnToBinary.TabIndex = 3;
+            this.btnToBinary.TabIndex = 7;
             this.btnToBinary.Text = "Convertir a Binario";
             this.btnToBinary.UseVisualStyleBackColor = true;
             this.btnToBinary.Click += new System.EventHandler(this.BtnToBinary_Click);
@@ -84,7 +84,7 @@
             this.btnToDecimal.Location = new System.Drawing.Point(180, 136);
             this.btnToDecimal.Name = "btnToDecimal";
             this.btnToDecimal.Size = new System.Drawing.Size(150, 42);
-            this.btnToDecimal.TabIndex = 4;
+            this.btnToDecimal.TabIndex = 8;
             this.btnToDecimal.Text = "Convertir a Decimal";
             this.btnToDecimal.UseVisualStyleBackColor = true;
             this.btnToDecimal.Click += new System.EventHandler(this.BtnToDecimal_Click);
@@ -96,7 +96,7 @@
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNumero1.Size = new System.Drawing.Size(98, 21);
-            this.txtNumero1.TabIndex = 5;
+            this.txtNumero1.TabIndex = 1;
             // 
             // txtNumero2
             // 
@@ -104,7 +104,7 @@
             this.txtNumero2.Multiline = true;
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(98, 21);
-            this.txtNumero2.TabIndex = 6;
+            this.txtNumero2.TabIndex = 3;
             // 
             // cmbOperador
             // 
@@ -117,7 +117,7 @@
             this.cmbOperador.Location = new System.Drawing.Point(128, 48);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(46, 21);
-            this.cmbOperador.TabIndex = 7;
+            this.cmbOperador.TabIndex = 2;
             // 
             // lblResultado
             // 

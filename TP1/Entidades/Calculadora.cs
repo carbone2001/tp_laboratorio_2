@@ -37,7 +37,7 @@
         /// </summary>
         /// <param name="operador"></param>
         /// <returns>Retorno el operador ingresado ya validado. Devuelta + en caso de error</returns>
-        public static string ValidarOperador(string operador)
+        private static string ValidarOperador(string operador)
         {
             char operadorChar;
             string retorno = "+";

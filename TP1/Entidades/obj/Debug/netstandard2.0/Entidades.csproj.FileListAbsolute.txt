@@ -7,3 +7,12 @@ D:\Escritorio\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.
 D:\Escritorio\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
 D:\Escritorio\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 D:\Escritorio\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
