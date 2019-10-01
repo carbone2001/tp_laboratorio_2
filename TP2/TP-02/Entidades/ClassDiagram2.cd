@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades_2018.Changuito" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAARAAAAEQAEAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Changuito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_2018.Dulce" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Dulce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_2018.Leche" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Leche.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_2018.Producto">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Entidades_2018.Producto.EMarca" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Producto.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQQAAAAAAQAAAAAAAAAAAIAAAAAAUAAAiA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades_2018.Snacks" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Snacks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
