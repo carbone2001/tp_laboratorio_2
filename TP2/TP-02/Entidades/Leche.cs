@@ -17,16 +17,15 @@ namespace Entidades_2018
         /// Por defecto, TIPO será ENTERA
         /// </summary>
         /// <param name="marca"></param>
-        /// <param name="patente"></param>
+        /// <param name="codigo"></param>
         /// <param name="color"></param>
+        public Leche(EMarca marca, string codigo, ConsoleColor color) : this(marca, codigo, color, ETipo.Entera) { }
 
-        public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipo) : base(patente, marca, color)
+        public Leche(EMarca marca, string codigo, ConsoleColor color, ETipo tipo) : base(codigo, marca, color)
         {
             this.tipo = tipo;
         }
-        public Leche(EMarca marca, string patente, ConsoleColor color):this(marca, patente, color,ETipo.Entera)
-        {
-        }
+        
 
         /// <summary>
         /// Las leches tienen 20 calorías

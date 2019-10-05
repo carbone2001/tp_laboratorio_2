@@ -8,8 +8,8 @@ namespace Entidades_2018
 {
     public class Snacks:Producto
     {
-        public Snacks(EMarca marca, string patente, ConsoleColor color)
-            : base(patente, marca, color)
+        public Snacks(EMarca marca, string codigo, ConsoleColor color)
+            : base(codigo, marca, color)
         {
         }
         /// <summary>

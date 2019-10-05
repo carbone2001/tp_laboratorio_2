@@ -59,6 +59,8 @@ namespace TP_02_2018
             Console.ReadKey();
             Console.Clear();
 
+            Console.Beep();
+
             // Muestro solo Leches
             Console.WriteLine(changoDeCompras.Mostrar(changoDeCompras, Changuito.ETipo.Leche));
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");

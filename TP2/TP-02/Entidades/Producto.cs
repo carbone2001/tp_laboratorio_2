@@ -27,7 +27,7 @@ namespace Entidades_2018
         }
 
         /// <summary>
-        /// ReadOnly: Retornará la cantidad de ruedas del vehículo
+        /// ReadOnly: Retornará la cantidad de calorias de un producto
         /// </summary>
         protected abstract short CantidadCalorias { get;}
 
