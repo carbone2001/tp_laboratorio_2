@@ -1,0 +1,8 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\bin\Debug\netstandard2.0\Archivos.deps.json
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\bin\Debug\netstandard2.0\Archivos.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\bin\Debug\netstandard2.0\Archivos.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\obj\Debug\netstandard2.0\Archivos.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\obj\Debug\netstandard2.0\Archivos.AssemblyInfoInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\obj\Debug\netstandard2.0\Archivos.AssemblyInfo.cs
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\obj\Debug\netstandard2.0\Archivos.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Archivos\obj\Debug\netstandard2.0\Archivos.pdb

@@ -1,0 +1,11 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\bin\Debug\netstandard2.0\Clases Abstractas.deps.json
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\bin\Debug\netstandard2.0\Clases Abstractas.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\bin\Debug\netstandard2.0\Clases Abstractas.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\bin\Debug\netstandard2.0\Excepciones.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\bin\Debug\netstandard2.0\Excepciones.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.AssemblyInfoInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.AssemblyInfo.cs
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.csproj.CopyComplete
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Abstractas\obj\Debug\netstandard2.0\Clases Abstractas.pdb

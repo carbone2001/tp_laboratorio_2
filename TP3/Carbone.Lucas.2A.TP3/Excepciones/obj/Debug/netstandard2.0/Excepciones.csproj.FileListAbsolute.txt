@@ -1,0 +1,8 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\bin\Debug\netstandard2.0\Excepciones.deps.json
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\bin\Debug\netstandard2.0\Excepciones.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\bin\Debug\netstandard2.0\Excepciones.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\obj\Debug\netstandard2.0\Excepciones.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\obj\Debug\netstandard2.0\Excepciones.AssemblyInfoInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\obj\Debug\netstandard2.0\Excepciones.AssemblyInfo.cs
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\obj\Debug\netstandard2.0\Excepciones.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Excepciones\obj\Debug\netstandard2.0\Excepciones.pdb

@@ -1,0 +1,15 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.AssemblyInfoInputs.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.AssemblyInfo.cs
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Clases Instanciables.deps.json
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Clases Instanciables.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Clases Instanciables.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Archivos.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Clases Abstractas.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Excepciones.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Archivos.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Clases Abstractas.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\bin\Debug\netstandard2.0\Excepciones.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.csproj.CopyComplete
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Clases Instanciables\obj\Debug\netstandard2.0\Clases Instanciables.pdb
