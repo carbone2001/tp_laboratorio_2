@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Excepciones;
-
+using Archivos;
 namespace Clases_Instanciables
 {
     public class Universidad
@@ -37,12 +37,21 @@ namespace Clases_Instanciables
         #region Metodos
         public static bool Guardar(Universidad uni)//NO SE HA TERMINADO DE DESARROLLAR
         {
-            return false;
+            Xml<Universidad> xml = new Xml<Universidad>();
+            return xml.Guardar("Universidad.xml", uni); ;
         }
         public static Universidad Leer()//NO SE HA TERMINADO DE DESARROLLAR
         {
-            return null;
+            Xml<Universidad> xml = new Xml<Universidad>();
+            Universidad uni;
+            xml.Leer("Universidad.xml",out uni);
+            return uni;
         }
+        /// <summary>
+        /// Genera una cadena donde se muestran los datos cargados en los atributos del objeto que llega por parametro
+        /// </summary>
+        /// <param name="uni"></param>
+        /// <returns>Retorna la cadena generada</returns>
         private static string MostrarDatos(Universidad uni)
         {
             StringBuilder str = new StringBuilder();
@@ -54,14 +63,36 @@ namespace Clases_Instanciables
             }
             return str.ToString();
         }
+
+
+
+
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son desiguales
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="g"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static bool operator !=(Universidad g, Alumno a)
         {
             return !(g == a);
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son desiguales
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="i"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static bool operator !=(Universidad g, Profesor i)
         {
             return !(g == i);
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son desiguales
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="clase"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static Profesor operator !=(Universidad u, EClases clase)
         {
             foreach (Profesor x in u.Instructores)
@@ -101,6 +132,12 @@ namespace Clases_Instanciables
                 u.Instructores.Add(i);
             return u;
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son iguales
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="a"></param>
+        /// <returns>Retorna true si los dos objetos son iguales y false en caso contrario.</returns>
         public static bool operator ==(Universidad g, Alumno a)
         {
             if (!Object.Equals(g.Alumnos, null))
@@ -111,6 +148,12 @@ namespace Clases_Instanciables
                 }
             return false;
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son iguales
+        /// </summary>
+        /// <param name="g"></param>
+        /// <param name="i"></param>
+        /// <returns>Retorna true si los dos objetos son iguales y false en caso contrario.</returns>
         public static bool operator ==(Universidad g, Profesor i)
         {
             foreach (Profesor x in g.Instructores)
@@ -120,6 +163,12 @@ namespace Clases_Instanciables
             }
             return false;
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son iguales
+        /// </summary>
+        /// <param name="u"></param>
+        /// <param name="clase"></param>
+        /// <returns>Retorna true si los dos objetos son iguales y false en caso contrario.</returns>
         public static Profesor operator ==(Universidad u, EClases clase)
         {
             foreach (Profesor x in u.Instructores)

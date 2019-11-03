@@ -12,20 +12,39 @@ namespace Clases_Instanciables
         private static Random random;
         #endregion
         #region Metodos
+        /// <summary>
+        /// Genera y agrega una clase del dia aleatoriamente.
+        /// </summary>
         private void _randomClases()
         {
             Universidad.EClases aux;
             aux = (Universidad.EClases)Profesor.random.Next(1, 4);
             this.clasesDelDia.Enqueue(aux);
         }
+        /// <summary>
+        /// Genera una cadena con los datos cargados en los atributos
+        /// </summary>
+        /// <returns>Retorna la cadena con los datos del objecto</returns>
         protected override string MostrarDatos()
         {
             return base.MostrarDatos() + this.ParticiparEnClase();
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son desiguales
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="clase"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static bool operator !=(Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Universitario son iguales
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="clase"></param>
+        /// <returns>Retorna true si los dos objetos son iguales y false en caso contrario.</returns>
         public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
             Universidad.EClases aux;
@@ -46,6 +65,10 @@ namespace Clases_Instanciables
             }
             throw new SinProfesorException();
         }
+        /// <summary>
+        /// Muestra la participacion que tien en clase
+        /// </summary>
+        /// <returns>Retorna un string donde se comenta la participacion</returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder str = new StringBuilder();
@@ -73,6 +96,10 @@ namespace Clases_Instanciables
             for (int i = 0; i < 2; i++)
                 this._randomClases();
         }
+        /// <summary>
+        /// Genera un string con todos los datos de los atributos
+        /// </summary>
+        /// <returns>Retorna la cadena genrada</returns>
         public override string ToString()
         {
             return this.MostrarDatos();

@@ -11,6 +11,9 @@ namespace Clases_Instanciables
         private Profesor instructor;
         #endregion
         #region Propiedades
+        /// <summary>
+        /// Lista de alumnos
+        /// </summary>
         public List<Alumno> Alumnos
         {
             get { return this.alumnos; }
@@ -28,7 +31,12 @@ namespace Clases_Instanciables
         }
         #endregion
         #region Metodos
-        public static bool Guardar(Jornada jornada)//NO SE HA TERMINADO DE DESARROLLAR
+        /// <summary>
+        /// Guarda los datos de jornada en un archivo de texto
+        /// </summary>
+        /// <param name="jornada"></param>
+        /// <returns>True si se pudo guardar el archivo. False en caso contrario.</returns>
+        public static bool Guardar(Jornada jornada)
         {
             Texto t = new Texto();
             return t.Guardar("Jornada.txt", jornada.ToString());
@@ -42,23 +50,45 @@ namespace Clases_Instanciables
             this.Clase = clase;
             this.Instructor = instructor;
         }
-        public static string Leer()//NO SE HA TERMINADO DE DESARROLLAR
+        /// <summary>
+        /// Lee un archivo de texto
+        /// </summary>
+        /// <returns>Devuelve un string con los datos del archivo leido</returns>
+        public static string Leer()
         {
             Texto t = new Texto();
             string datos;
             t.Leer("Jornada.txt", out datos);
             return datos;
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Alumno son desiguales
+        /// </summary>
+        /// <param name="j"></param>
+        /// <param name="a"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static bool operator !=(Jornada j, Alumno a)
         {
             return !(j == a);
         }
+        /// <summary>
+        /// Agrega el alumno ingresado por el parametro en caso de que no este en la lista
+        /// </summary>
+        /// <param name="j"></param>
+        /// <param name="a"></param>
+        /// <returns>Devuelve un objeto de tipo Jornada</returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
             if (j != a)
                 j.Alumnos.Add(a);
             return j;
         }
+        /// <summary>
+        /// Compara si dos objetos de tipo Alumno son desiguales
+        /// </summary>
+        /// <param name="j"></param>
+        /// <param name="a"></param>
+        /// <returns>Retorna true si los dos objetos son desiguales y false en caso contrario.</returns>
         public static bool operator ==(Jornada j, Alumno a)
         {
             if (a == j.Clase)
