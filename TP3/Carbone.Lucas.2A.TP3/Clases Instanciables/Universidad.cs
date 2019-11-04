@@ -1,8 +1,8 @@
-﻿using System;
+﻿using Archivos;
+using Excepciones;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Excepciones;
-using Archivos;
 namespace Clases_Instanciables
 {
     public class Universidad
@@ -44,7 +44,7 @@ namespace Clases_Instanciables
         {
             Xml<Universidad> xml = new Xml<Universidad>();
             Universidad uni;
-            xml.Leer("Universidad.xml",out uni);
+            xml.Leer("Universidad.xml", out uni);
             return uni;
         }
         /// <summary>

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Serialization;
-using System.Xml;
 namespace Archivos
 {
-    public class Xml<T> : IArchivo<T> where T:class
+    public class Xml<T> : IArchivo<T> where T : class
     {
         #region Metodos
         public bool Guardar(string archivo, T datos)
@@ -21,7 +20,7 @@ namespace Archivos
             {
                 return false;
             }
-            
+
         }
 
         public bool Leer(string archivo, out T datos)

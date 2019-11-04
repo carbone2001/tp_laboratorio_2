@@ -1,8 +1,8 @@
-﻿using System;
+﻿using EntidadesAbstractas;
+using Excepciones;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using EntidadesAbstractas;
-using Excepciones;
 namespace Clases_Instanciables
 {
     public sealed class Profesor : Universitario

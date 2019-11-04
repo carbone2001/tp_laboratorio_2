@@ -1,5 +1,5 @@
-﻿using System;
-using Excepciones;
+﻿using Excepciones;
+using System;
 namespace EntidadesAbstractas
 {
     public abstract class Persona
@@ -50,7 +50,7 @@ namespace EntidadesAbstractas
         public override string ToString()
         {
             return String.Format("NOMBRE COMPLETO: {0}, {1}\nNACIONALIDAD: {2}\n", this.Apellido, this.Nombre, this.Nacionalidad.ToString());
-        } 
+        }
         /// <summary>
         /// Valida si el dato corresponde con la nacionalidad ingresada
         /// </summary>

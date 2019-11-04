@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Archivos;
+using System.Collections.Generic;
 using System.Text;
-using Archivos;
 namespace Clases_Instanciables
 {
     public class Jornada
@@ -38,8 +38,16 @@ namespace Clases_Instanciables
         /// <returns>True si se pudo guardar el archivo. False en caso contrario.</returns>
         public static bool Guardar(Jornada jornada)
         {
-            Texto t = new Texto();
-            return t.Guardar("Jornada.txt", jornada.ToString());
+            try
+            {
+                Texto t = new Texto();
+                return t.Guardar("Jornada.txt", jornada.ToString());
+            }
+            catch (System.Exception e)
+            {
+                throw new Excepciones.ArchivosException();
+            }
+
         }
         private Jornada()
         {
@@ -56,10 +64,18 @@ namespace Clases_Instanciables
         /// <returns>Devuelve un string con los datos del archivo leido</returns>
         public static string Leer()
         {
-            Texto t = new Texto();
-            string datos;
-            t.Leer("Jornada.txt", out datos);
-            return datos;
+            try
+            {
+                Texto t = new Texto();
+                string datos;
+                t.Leer("Jornada.txt", out datos);
+                return datos;
+            }
+            catch (System.Exception e)
+            {
+                throw new Excepciones.ArchivosException();
+            }
+
         }
         /// <summary>
         /// Compara si dos objetos de tipo Alumno son desiguales
@@ -98,7 +114,7 @@ namespace Clases_Instanciables
         public override string ToString()
         {
             StringBuilder str = new StringBuilder();
-            str.AppendLine("CLASE DE " + this.Clase.ToString() +" POR " + this.Instructor.ToString());
+            str.AppendLine("CLASE DE " + this.Clase.ToString() + " POR " + this.Instructor.ToString());
             str.AppendLine("\nALUMNOS:");
             foreach (Alumno a in this.Alumnos)
                 str.AppendLine(a.ToString());

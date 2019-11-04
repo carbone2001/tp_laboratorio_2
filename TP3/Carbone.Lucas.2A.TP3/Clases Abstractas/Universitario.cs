@@ -24,7 +24,7 @@
         /// <returns>Retorna la cadena con los datos del objecto</returns>
         protected virtual string MostrarDatos()
         {
-            return  base.ToString() + "\nLEGAJO NUMERO: " + this.legajo.ToString() + "\n";
+            return base.ToString() + "\nLEGAJO NUMERO: " + this.legajo.ToString() + "\n";
         }
         /// <summary>
         /// Compara dos objetos de tipo Universitario y si estos son desiguales.
