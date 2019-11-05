@@ -1,8 +1,0 @@
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\bin\Debug\netstandard2.0\Entidades.dll
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\obj\Debug\netstandard2.0\Entidades.dll
-C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP3\Carbone.Lucas.2A.TP3\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

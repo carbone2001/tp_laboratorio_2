@@ -43,7 +43,7 @@ namespace Clases_Instanciables
                 Texto t = new Texto();
                 return t.Guardar("Jornada.txt", jornada.ToString());
             }
-            catch (System.Exception e)
+            catch (System.Exception)
             {
                 throw new Excepciones.ArchivosException();
             }
@@ -71,7 +71,7 @@ namespace Clases_Instanciables
                 t.Leer("Jornada.txt", out datos);
                 return datos;
             }
-            catch (System.Exception e)
+            catch (System.Exception)
             {
                 throw new Excepciones.ArchivosException();
             }

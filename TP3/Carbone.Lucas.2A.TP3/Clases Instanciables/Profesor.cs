@@ -47,6 +47,7 @@ namespace Clases_Instanciables
         /// <returns>Retorna true si los dos objetos son iguales y false en caso contrario.</returns>
         public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
+
             Universidad.EClases aux;
             if (!Object.Equals(i, null) && !Object.Equals(i.clasesDelDia, null))
             {
@@ -61,9 +62,13 @@ namespace Clases_Instanciables
                     }
                 }
                 return false;
-
+            }
+            else
+            {
+                return Object.Equals(i, clase);
             }
             throw new SinProfesorException();
+
         }
         /// <summary>
         /// Muestra la participacion que tien en clase
@@ -71,17 +76,25 @@ namespace Clases_Instanciables
         /// <returns>Retorna un string donde se comenta la participacion</returns>
         protected override string ParticiparEnClase()
         {
-            StringBuilder str = new StringBuilder();
-            int count = this.clasesDelDia.Count;
-            Universidad.EClases aux;
-            str.AppendFormat("CLASES DEL DÍA:");
-            for (int i = 0; i < count; i++)
+            try
             {
-                aux = this.clasesDelDia.Dequeue();
-                str.AppendFormat("\n{0}", aux.ToString());
-                this.clasesDelDia.Enqueue(aux);
+                StringBuilder str = new StringBuilder();
+                int count = this.clasesDelDia.Count;
+                Universidad.EClases aux;
+                str.AppendFormat("CLASES DEL DÍA:");
+                for (int i = 0; i < count; i++)
+                {
+                    aux = this.clasesDelDia.Dequeue();
+                    str.AppendFormat("\n{0}", aux.ToString());
+                    this.clasesDelDia.Enqueue(aux);
+                }
+                return str.ToString();
             }
-            return str.ToString();
+            catch (Exception e)
+            {
+                return e.Message;
+            }
+
         }
         static Profesor()
         {

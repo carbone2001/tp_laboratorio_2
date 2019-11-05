@@ -54,14 +54,22 @@ namespace Clases_Instanciables
         /// <returns>Retorna la cadena generada</returns>
         private static string MostrarDatos(Universidad uni)
         {
-            StringBuilder str = new StringBuilder();
-            str.AppendLine("JORNADA:");
-            foreach (Jornada j in uni.Jornadas)
+            try
             {
-                str.Append(j.ToString());
-                str.AppendLine("<------------------------------------------------>\n");
+                StringBuilder str = new StringBuilder();
+                str.AppendLine("JORNADA:");
+                foreach (Jornada j in uni.Jornadas)
+                {
+                    str.Append(j.ToString());
+                    str.AppendLine("<------------------------------------------------>\n");
+                }
+                return str.ToString();
             }
-            return str.ToString();
+            catch (Exception e)
+            {
+                return e.Message;
+            }
+
         }
 
 

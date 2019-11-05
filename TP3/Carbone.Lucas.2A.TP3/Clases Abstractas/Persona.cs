@@ -84,12 +84,22 @@ namespace EntidadesAbstractas
         /// <returns>Devuelve el dato en caso de que haya pasado la valdiacion</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
-            foreach (char c in dato)
+            if (!Object.Equals(nacionalidad, null) && !Object.Equals(dato, null))
             {
-                if (!char.IsDigit(c))
-                    throw new DniInvalidoException();
+                foreach (char c in dato)
+                {
+                    if (!char.IsDigit(c))
+                        throw new DniInvalidoException();
+                }
+                return ValidarDni(nacionalidad, int.Parse(dato));
             }
-            return ValidarDni(nacionalidad, int.Parse(dato));
+            else
+            {
+                throw new DniInvalidoException();
+            }
+
+
+
         }
         /// <summary>
         /// Verifica si la cadena contiene o no un dato numerico
@@ -98,12 +108,20 @@ namespace EntidadesAbstractas
         /// <returns>Devuelve la cadena ingresada si paso por la verificacion. Caso contrario devolvera una cadena vacia.</returns>
         private string ValidarNombreApellido(string dato)
         {
-            foreach (char c in dato)
+            try
             {
-                if (char.IsDigit(c))
-                    return "";
+                foreach (char c in dato)
+                {
+                    if (char.IsDigit(c))
+                        return "";
+                }
+                return dato;
             }
-            return dato;
+            catch (Exception)
+            {
+                return "";
+            }
+
         }
         #endregion
         #region Tipos anidados
