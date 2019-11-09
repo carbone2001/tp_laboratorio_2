@@ -35,12 +35,12 @@ namespace Clases_Instanciables
         }
         #endregion
         #region Metodos
-        public static bool Guardar(Universidad uni)//NO SE HA TERMINADO DE DESARROLLAR
+        public static bool Guardar(Universidad uni)
         {
             Xml<Universidad> xml = new Xml<Universidad>();
             return xml.Guardar("Universidad.xml", uni); ;
         }
-        public static Universidad Leer()//NO SE HA TERMINADO DE DESARROLLAR
+        public static Universidad Leer()
         {
             Xml<Universidad> xml = new Xml<Universidad>();
             Universidad uni;
@@ -186,7 +186,7 @@ namespace Clases_Instanciables
             }
             throw new SinProfesorException();
         }
-        public override string ToString()//NO SE HA TERMINADO DE DESARROLLAR
+        public override string ToString()
         {
             return Universidad.MostrarDatos(this);
         }
