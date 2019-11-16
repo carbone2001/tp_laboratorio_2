@@ -1,0 +1,6 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\Entidades\obj\Debug\Entidades.pdb

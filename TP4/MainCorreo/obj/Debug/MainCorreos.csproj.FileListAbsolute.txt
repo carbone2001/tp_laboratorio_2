@@ -1,0 +1,9 @@
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\bin\Debug\CorreoWindowsForm.exe.config
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\bin\Debug\CorreoWindowsForm.exe
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\bin\Debug\CorreoWindowsForm.pdb
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\MainCorreos.csprojAssemblyReference.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\MainCorreo.FrmPpal.resources
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\CorreoWindowsForm.Properties.Resources.resources
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\MainCorreos.csproj.GenerateResource.cache
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\CorreoWindowsForm.exe
+C:\Users\Lucas\Escritorio En SSD\tp_laboratorio_2\TP4\CorreoWindowsForm\obj\Debug\CorreoWindowsForm.pdb

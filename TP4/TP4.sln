@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{0C75EF58-5085-46DE-9E94-E1B329636EE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainCorreo", "MainCorreo\MainCorreo.csproj", "{5420A3BC-3DBA-4A11-A2C5-CE208FAFD34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{3FEE4559-3C0C-41F0-9DF0-DEEB9DB237CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C75EF58-5085-46DE-9E94-E1B329636EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C75EF58-5085-46DE-9E94-E1B329636EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C75EF58-5085-46DE-9E94-E1B329636EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C75EF58-5085-46DE-9E94-E1B329636EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5420A3BC-3DBA-4A11-A2C5-CE208FAFD34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5420A3BC-3DBA-4A11-A2C5-CE208FAFD34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5420A3BC-3DBA-4A11-A2C5-CE208FAFD34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5420A3BC-3DBA-4A11-A2C5-CE208FAFD34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FEE4559-3C0C-41F0-9DF0-DEEB9DB237CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FEE4559-3C0C-41F0-9DF0-DEEB9DB237CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FEE4559-3C0C-41F0-9DF0-DEEB9DB237CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FEE4559-3C0C-41F0-9DF0-DEEB9DB237CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F64011D5-9D2C-47CB-8042-1CCF7751AB4D}
+	EndGlobalSection
+EndGlobal
