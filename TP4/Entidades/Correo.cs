@@ -6,8 +6,8 @@ namespace Entidades
     public class Correo : IMostrar<List<Paquete>>
     {
         #region Campos
-        List<Thread> mockPaquetes;
-        List<Paquete> paquetes;
+        private List<Thread> mockPaquetes;
+        private List<Paquete> paquetes;
         #endregion
         #region Propiedades
         public List<Paquete> Paquetes { get { return this.paquetes; } set { this.paquetes = value; } }
@@ -18,15 +18,20 @@ namespace Entidades
             this.paquetes = new List<Paquete>();
             this.mockPaquetes = new List<Thread>();
         }
+        /// <summary>
+        /// Finaliza todos los hilos de paquetes que sigan en proceso.
+        /// </summary>
         public void FinEntregas()
         {
             foreach (Thread x in this.mockPaquetes)
                 if (x.IsAlive)
-                {
                     x.Abort();
-                }
-                    
         }
+        /// <summary>
+        /// Muestra una lista con todos los datos de los paquetes que contiene el Correo.
+        /// </summary>
+        /// <param name="elementos"></param>
+        /// <returns>Devuelve un string con los datos pedidos</returns>
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
             StringBuilder str = new StringBuilder();
@@ -35,6 +40,12 @@ namespace Entidades
                     str.AppendLine(p.MostrarDatos(p)+"("+p.Estado.ToString()+")");
             return str.ToString();
         }
+        /// <summary>
+        /// Agrega un paquete al correo si no existe ya un paquete con el mismo Tracking ID.
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="p"></param>
+        /// <returns>Un objeto correo como resultado de esta suma</returns>
         public static Correo operator +(Correo c, Paquete p)
         {
             foreach (Paquete x in c.Paquetes)

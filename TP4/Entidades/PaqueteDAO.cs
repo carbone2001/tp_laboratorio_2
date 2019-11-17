@@ -9,6 +9,11 @@ namespace Entidades
         private static SqlConnection conexion;
         #endregion
         #region Metodos
+        /// <summary>
+        /// Inserta un paquete a la base de datos
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static bool InsertarPaquete(Paquete p)
         {
             string cmd = String.Format("INSERT INTO Paquetes(direccionEntrega,trackingID,alumno) values('{0}','{1}','{2}')", p.DireccionEntrega, p.TrackingID, "Lucas Carbone");
@@ -21,7 +26,7 @@ namespace Entidades
             }
             catch (Exception e)
             {
-                return false;
+                throw e;
             }
             finally
             {

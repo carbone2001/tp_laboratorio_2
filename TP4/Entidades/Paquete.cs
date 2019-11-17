@@ -16,6 +16,9 @@ namespace Entidades
         #endregion
 
         #region Metodos
+        /// <summary>
+        /// Cada 4 segudos cambiara de estado al paquete, se informara el cambio de estado. Al llegar al ultimo estado se cargara el paquete a una base de datos.
+        /// </summary>
         public void MockCicloDeVida()
         {
             while (true)
@@ -41,6 +44,11 @@ namespace Entidades
                 }
             }
         }
+        /// <summary>
+        /// Mostrar los datos del paquete
+        /// </summary>
+        /// <param name="elemento">Un objeto de tipo paquete</param>
+        /// <returns>Un string con los datos obtenidos.</returns>
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
             try
@@ -52,18 +60,35 @@ namespace Entidades
                 return "";
             }
         }
+        /// <summary>
+        /// Compara si los elementos ingresados son distintos
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
+        /// <returns></returns>
         public static bool operator !=(Paquete p1, Paquete p2)
         {
             return !(p1 == p2);
         }
+        /// <summary>
+        /// Compara si los elementos ingresados son iguales
+        /// </summary>
+        /// <param name="p1"></param>
+        /// <param name="p2"></param>
+        /// <returns></returns>
         public static bool operator ==(Paquete p1, Paquete p2)
         {
             return (p1.TrackingID == p2.TrackingID);
         }
+        /// <summary>
+        /// Delvuelve un string con los datos del paquete.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return this.MostrarDatos(this);
         }
+
         public Paquete(string direccionEntrega, string trackingID)
         {
             this.DireccionEntrega = direccionEntrega;

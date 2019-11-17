@@ -15,6 +15,9 @@ namespace MainCorreo
         private Correo correo;
         
         #region Methods
+        /// <summary>
+        /// Actualiza los datos de las listas Entrega, En Viaje e Ingresado.
+        /// </summary>
         private void ActualizarEstados()
         {
             this.lstEstadoEntregado.Items.Clear();
@@ -36,6 +39,11 @@ namespace MainCorreo
                 }
             }
         }
+        /// <summary>
+        /// Al suceder este evento se agregara un paquete al correo
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Paquete p = new Paquete(this.txtDireccion.Text,this.mtxtTrackingID.Text);
@@ -50,6 +58,11 @@ namespace MainCorreo
             }
             ActualizarEstados();
         }
+        /// <summary>
+        /// Mostrara los datos
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnMostrarTodos_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<List<Paquete>>((IMostrar<List<Paquete>>)correo);
@@ -60,10 +73,20 @@ namespace MainCorreo
             this.FormClosing += FrmPpal_FormClosing;
             this.correo = new Correo();
         }
+        /// <summary>
+        /// Evento encargado de finalizar entregas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FrmPpal_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.correo.FinEntregas();
         }
+        /// <summary>
+        /// Muestra la informacion en rtbMostrar y la guarda un archivo llamado salida.txt en el escritorio.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="elemento"></param>
         private void MostrarInformacion<T>(IMostrar<T>elemento)
         {
             if (elemento != null)
@@ -73,10 +96,20 @@ namespace MainCorreo
                 datosElemento.Guardar("salida.txt");
             }
         }
+        /// <summary>
+        /// Al hacer click a un paquete en la lista Entregado mostrar la información del paquete en el cuadro de texto situado en la parte inferior izquierda
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void mostrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
         }
+        /// <summary>
+        /// Evento que al suceder informara el estado de los paquetes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void paq_InformaEstado(object sender, EventArgs e)
         {
             if (sender is Exception)
@@ -90,9 +123,7 @@ namespace MainCorreo
                 this.Invoke(d, new object[] { sender, e });
             }
             else
-            {
-                this.ActualizarEstados();
-            }
+            {  this.ActualizarEstados(); } 
         }
         #endregion
     }

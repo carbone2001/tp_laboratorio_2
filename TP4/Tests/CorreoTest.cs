@@ -8,7 +8,7 @@ namespace Tests
     {
 
         /// <summary>
-        /// Verificar que la lista de Paquetes del Correo este instanciada
+        /// Verifica que la lista de Paquetes del Correo este instanciada
         /// </summary>
         [TestMethod]
         public void ListaPaquetesInstanciada()
@@ -18,7 +18,7 @@ namespace Tests
         }
 
         /// <summary>
-        /// Verificar no se puedan cargar 2 Paquetes con el mismo Tracking ID
+        /// Verifica no se puedan cargar dos Paquetes con el mismo Tracking ID
         /// </summary>
         [TestMethod]
         public void CargarPaqueteMismoTrackingID()
