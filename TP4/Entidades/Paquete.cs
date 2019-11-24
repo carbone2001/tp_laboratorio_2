@@ -34,7 +34,7 @@ namespace Entidades
                     this.InformarEstado(this, new EventArgs());
                     try
                     {
-                        PaqueteDAO.InsertarPaquete(this);
+                        PaqueteDAO.Insertar (this);
                     }
                     catch (Exception e)
                     {

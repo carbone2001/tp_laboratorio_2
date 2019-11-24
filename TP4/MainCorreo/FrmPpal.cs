@@ -114,7 +114,8 @@ namespace MainCorreo
         {
             if (sender is Exception)
             {
-               
+                MessageBox.Show("Ha ocurrido un error al conectarse a la base de datos!","Error al conectarse con la base de datos",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                return;
             }
             if (this.InvokeRequired)
             {

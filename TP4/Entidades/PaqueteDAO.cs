@@ -14,7 +14,7 @@ namespace Entidades
         /// </summary>
         /// <param name="p"></param>
         /// <returns></returns>
-        public static bool InsertarPaquete(Paquete p)
+        public static bool Insertar(Paquete p)
         {
             string cmd = String.Format("INSERT INTO Paquetes(direccionEntrega,trackingID,alumno) values('{0}','{1}','{2}')", p.DireccionEntrega, p.TrackingID, "Lucas Carbone");
             try
