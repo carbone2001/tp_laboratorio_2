@@ -114,8 +114,7 @@ namespace MainCorreo
         {
             if (sender is Exception)
             {
-                MessageBox.Show(((Exception)sender).Message, "Error con la base de datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+               
             }
             if (this.InvokeRequired)
             {
@@ -126,5 +125,7 @@ namespace MainCorreo
             {  this.ActualizarEstados(); } 
         }
         #endregion
+
+        
     }
 }
